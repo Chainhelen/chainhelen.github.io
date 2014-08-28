@@ -1,0 +1,214 @@
+body {
+  background: #f0f0f0 url(../img/pattern.png);
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  
+  font: 14px/20px 'Noto Sans', Helvetica, Arial;
+  font-family: "Microsoft Yahei",simsun";
+  
+  color: #222;
+}
+h1, h2, h3, h4 {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-weight: normal;
+}
+h1 {
+  font-size: 300%;
+  font-family: "Microsoft Yahei",simsun;
+  font-weight: bold;
+}
+
+img{
+	-webkit-transition: all .1s ease-in-out;
+}
+img:hover{
+	-webkit-transform: scale(1.5);
+	box-shadow: 2px -2px 10px #424141
+}
+
+h2 {
+  font-size: 150%;
+  line-height: 150%;
+}
+h3 {
+  font-size: 150%;
+  line-height: 130%;
+}
+
+p {
+  margin: 10px 0 0 0;
+}
+
+.value:hover a{
+	color:#FF0000;
+	margin-left:4%;
+}
+
+a {
+  color: #A31337;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 30px;
+  margin: 10px 0 0 0;
+}
+
+.clear {
+  clear: both;
+}
+
+#main {
+  background: #fff;
+  width: 900px;
+  padding: 35px;
+  margin: 35px auto 50px auto;
+  overflow: hidden;
+  
+  box-shadow: 0 -10px 35px #424141;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#title {
+  margin: 0px 0 30px 0;
+  line-height: 70px;
+  text-align: center;
+  color: #111;
+}
+
+p label {
+  float: left;
+  width: 80px;
+  margin-right: 10px;
+}
+  p label span.colon {
+    float: right;
+  }
+p span.value {
+  float: left;
+  width: 70%;
+  display: block;
+}
+
+.section {
+  margin-bottom: 40px;
+  padding-bottom: 0px;
+}
+
+.item {
+  margin: 0 0 20px 0;
+}
+
+.basic-info {
+  padding: 0px 0 0px 20px;
+  
+}
+.basic-info p {
+  float: left;
+  width: 48%;
+  margin: 0 0 0px 0;
+}
+.basic-info p.full {
+  width: 100%;
+  float: none;
+}
+  .basic-info .r {
+    float: right;
+  }
+
+.section .title {
+  border-bottom: 1px solid #ddd;
+  font-weight: 600;
+  padding-bottom: 5px;
+  background:url(../img/flag.jpg) no-repeat;
+  padding-left: 8px;
+  font-weight: bold;
+  color: #315AAA;
+  -webkit-transition: all 0.2s ease-out;
+}
+.section .title:hover{
+	margin-left: 5%;
+	color:#31BD25;
+}
+.section span {
+  display: block;
+}
+.section .item ul li.none{
+  list-style-type: none;
+}
+.section .item ul li{
+  font-size: 70%;
+}
+.section h3 span.l, .section span.r {
+  width: 49%;
+  float: left;
+}
+  .section span.r {
+    float: right;
+    text-align: right;
+  }
+  .section .sub-title {
+    font-size: 130%;
+    display: block;
+    margin: 5px 0 5px 0;
+  }
+  .section .company {
+    display: inline;
+    font-style: italic;
+  }
+
+@media screen and (max-width: 900px) {
+  body {
+    background: #fff;
+  }
+  
+  #main {
+    box-shadow: none;
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .basic-info {
+    padding: 0 0 50px 0;
+    width: 300px;
+  }
+
+  .basic-info p {
+    width: 100%;
+  }
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #ddd;
+  border-radius: 2px;
+  float: left;
+  padding: 2px 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: all .1s ease-in-out;
+}
+.skills li:hover{
+	box-shadow:0 -0.2px 8px #070707;
+	border-radius: 4px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+  body {
+    background: #f0f0f0 url(../img/pattern@2X.png);
+  }
+}
