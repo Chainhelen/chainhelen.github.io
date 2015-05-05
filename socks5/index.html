@@ -1,0 +1,115 @@
+<html>
+    <head>
+    <style>
+        @keyframes sma{
+            from {font-size:30px;}
+            to {font-size:20px;}
+        }
+        @-webkit-keyframes sma /* Safari and Chrome */
+        {
+            from {font-size:30px;}
+            to {font-size:20px;}
+        }
+
+
+        #main{
+            margin:100px 10% auto 10%;
+            padding:2%;
+            box-shadow:0 5px 25px #888888
+        }
+        .title{
+            text-align: center;
+            font-size:30px;
+        }
+        .content{
+            box-shadow:0 5px 40px  #000;
+            margin-bottom:10%;
+        }
+        .small-title{
+            float:left;
+            width:20%;
+            text-align:center;
+            font-weight:bold;
+        }
+        .small-content{
+            float:left;
+            width:80%;
+        }
+        .simg{
+            width:800px;
+            margin-left:3%;
+        }
+        img{
+            width:96%;
+        }
+
+        @media screen and (max-width:1070px){
+            .simg{
+                width:100%;
+            }
+
+        }
+
+        @media screen and (max-width:768px){
+            .title{
+                font-size:20px;
+                animation: sma 1s ;
+                -webkit-animation:sma 1s;
+            }
+
+        }
+
+        @media screen and (max-width:550px){
+            .small-title{
+                width:97%;
+                text-align:left;
+                padding-left:3%;
+            }
+            .small-content{
+                width:97%;
+                padding-left:3%;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div id="main">
+            <div class="title">
+                <h1>Hello World</h1>
+            </div>
+            <div class="content">
+                <div class="small-title"><p>一:</p></div>
+                <div class="small-content"><p>先按照我给的百度云链接下载，解压，可看见如下内容，双击start.bat</p></div>
+                <div style="clear:both"></div>
+                <div class="simg"><img src="/img/1.png"></img></div>
+            </div>
+            <div class="content">
+                <div class="small-title"><p>二:</p></div>
+                <div class="small-content"><p>若出现如下错误，则关闭所有其他浏览器，重新双击start.bat</p></div>
+                <div class="simg"><img src="/img/2.png"></img></div>
+            </div>
+            <div class="content">
+                <div class="small-title"><p style="color:red">翻墙时:</p></div>
+                <div class="small-content"><p>点击浏览器右上角按钮，然后选择"socks"按钮</p></div>
+                <div class="simg"><img src="/img/3.png"></img></div>
+            </div>
+            <div class="content">
+                <div class="small-title"><p>比如:</p></div>
+                <div class="small-content"><p>这时候就可以打开Facebook网站,在网址栏输入www.facebook.com,回车</p></div>
+                <div class="simg"><img src="/img/4.png"></img></div>
+            </div>
+            <div class="content">
+                <div class="small-title"><p>又比如:</p></div>
+                <div class="small-content"><p>还可以打开google网站,在网址栏输入www.google.com,回车</p></div>
+                <div class="simg"><img src="/img/5.png"></img></div>
+            </div>
+            <div class="content">
+                <div class="small-title"><p style="color:red">其他注意事项:</p></div>
+                <div class="small-content"><p>当不需要翻墙时，点击浏览器右上角按钮，然后选择"直接连接"按钮,就可以关闭翻墙</p></div>
+                <div class="simg"><img src="/img/6.png"></img></div>
+            </div>
+            <p>Time: 2015.05.05</p>
+            <p>by chainhelen</p>
+        </div>
+    </body>
+</html>
