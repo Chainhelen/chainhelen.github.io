@@ -1,5 +1,5 @@
 body {
-  background: #f0f0f0 url(/cv/css/pattern.png);
+  background: #f0f0f0 url(/cv/img/pattern.png);
   background-repeat: repeat;
   margin: 0;
   padding: 0;
@@ -160,7 +160,7 @@ p span.value {
   border-bottom: 1px solid #ddd;
   font-weight: 600;
   padding-bottom: 5px;
-  background:url(/css/cv/flag.jpg) no-repeat;
+  background:url(/cv/img/flag.jpg) no-repeat;
   padding-left: 8px;
   font-weight: bold;
   color: #315AAA;
