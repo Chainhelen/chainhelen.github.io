@@ -1,5 +1,5 @@
 body {
-  background: #f0f0f0 url(/css/cv/pattern.png);
+  background: #f0f0f0 url(/cv/css/pattern.png);
   background-repeat: repeat;
   margin: 0;
   padding: 0;
@@ -275,6 +275,6 @@ only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) { 
   body {
-    background: #f0f0f0 url(http://chainhelen.herokuapp.com/images/cv/pattern@2X.png);
+    background: #f0f0f0 url(/cv/img/pattern@2X.png);
   }
 }
